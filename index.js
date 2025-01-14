@@ -37,7 +37,11 @@ console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
  * @returns {number} the length of the array
  */
 function getLength(numbers) {
-  return numbers.length;
+  let num = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        num += 1;
+    }
+  return num;
 }
 
 /**
